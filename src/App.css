@@ -14,8 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #031b4c;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,3 +36,42 @@
     transform: rotate(360deg);
   }
 }
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.time-displays {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.time-display {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 200px;
+}
+
+.map-and-converter {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+
+  margin-top: 40px;
+}
+
+.time-zone-map {
+  flex: 1;
+  margin-right: 20px;
+  padding: 5%;
+  align-items: center;
+}
+
+.converter {
+  flex: 1;
+  margin-left: 20px;
+}
+
